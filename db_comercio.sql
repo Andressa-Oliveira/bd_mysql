@@ -28,4 +28,7 @@ DELETE FROM tb_produtos WHERE id BETWEEN 9 AND 60;
 DELETE FROM tb_produtos WHERE id = 2;
 
 
+SELECT * FROM tb_produtos WHERE preco > 500.00;
+SELECT * FROM tb_produtos WHERE preco < 500.00;
+
 
